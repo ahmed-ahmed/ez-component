@@ -1,0 +1,24 @@
+{
+  "name": "@ahmed.ahmed/ez-forms-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "yarn workspace @ahmed.ahmed/ez-forms build",
+    "dev": "yarn workspace preview dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "sites/*"
+    ]
+  },
+
+  "devDependencies": {
+    "@types/node": "^18.15.11"
+  }
+}
