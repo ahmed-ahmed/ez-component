@@ -39,8 +39,10 @@ function App() {
     }
 
 
-    return <Form schema={formSchema} uiSchema={formUiSchema}/>
-
+    return <>
+        <h1 className='text-3xl font-bold underline'>hi </h1>
+        <Form schema={formSchema} uiSchema={formUiSchema}/>
+    </>
 
 }
 
